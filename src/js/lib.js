@@ -22,9 +22,9 @@ const client = createClient(
 // });
 
 // ===========================================
-const query = "car";
-client.photos.search({ query, per_page: 10 }).then((result) => {
-  const items = template(result.photos);
-  console.log(result.photos);
-  refs.gallery.insertAdjacentHTML("afterbegin", items);
-});
+// const query = "car";
+// client.photos.search({ query, per_page: 10 }).then((result) => {
+//   const items = template(result.photos);
+//   console.log(result.photos);
+//   refs.gallery.insertAdjacentHTML("afterbegin", items);
+// });
